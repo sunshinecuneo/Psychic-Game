@@ -16,5 +16,5 @@ A big thank you also to Sangeetha for debugging my code and helping me fill in t
 gaps and spotting even more missing semicolons and all of my misspellings! I'd be lost without you 
 Sangeetha!
 
-Stay tuned for my next masterpiece, Crystal Collector, crashing on to the scene sonner than I'd like to think about!
+Stay tuned for my next masterpiece, Crystal Collector, crashing on to the scene sooner than I'd like to think about!
 

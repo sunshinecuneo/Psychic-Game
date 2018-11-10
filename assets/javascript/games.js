@@ -37,12 +37,7 @@ document.onkeyup = function (event) {
     var userGuesses = event.key.toLowerCase();
     console.log("User guess", userGuesses);
 
-    //var userGuess = String.fromCharCode(event.keycode).toLowerCase();
-
-    //guessedLetters.push(userGuess);
-    //console.log(userGuess);
-
-    // This logic determines the outcome of the game (win or lose), and increments the appropriate number.
+// This logic determines the outcome of the game (win or lose), and increments the appropriate number.
     if (computerChoices.indexOf(userGuesses) != -1) {
         if (userGuesses === computerGuess) {
             wins++;
@@ -53,7 +48,6 @@ document.onkeyup = function (event) {
         else if (guessesLeft === 0) {
             losses++;
             document.querySelector("#losses").innerHTML = "Losses: " + losses;
-            console.log
             restart();
         } else {
             guessedLetters.push(userGuesses);
@@ -65,9 +59,3 @@ document.onkeyup = function (event) {
 
     }
 };
-
-
-
-// Should I,,,?
-// Display the computer choice.
-// computerChoiceText.textContent = "The computer chose: " + computerGuess;
